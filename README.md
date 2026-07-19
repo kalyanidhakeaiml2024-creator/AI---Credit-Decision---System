@@ -88,7 +88,7 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-![Home](home.png)
+![Home](screenshots/home.png)
 
 ### Loan Form
 
