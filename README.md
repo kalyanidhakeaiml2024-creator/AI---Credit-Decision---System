@@ -88,11 +88,11 @@ http://127.0.0.1:5000
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](screenshots/home.png.png)
 
 ### Loan Form
 
-![Loan Form](loan_form.png)
+![Loan Form](loan_form.png.png)
 
 ### Prediction Result
 
@@ -100,11 +100,11 @@ http://127.0.0.1:5000
 
 ### Dashboard
 
-![Dashboard](dashboard.png)
+![Dashboard](dashboard.png.png)
 
 ### CAM Report
 
-![CAM Report](cam_report.png)
+![CAM Report](cam_report.png.png)
 
 ---
 ## 🎥 Project Demo Video
