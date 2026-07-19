@@ -107,8 +107,8 @@ http://127.0.0.1:5000
 
 ## 👩‍💻 Author
 
-**Kalyani Dhake**
-**Karina Nagesh**
+- **Kalyani Dhake** 
+- **Karina Nagesh**
 
 B.Tech AIML Student
 
