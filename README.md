@@ -1,3 +1,16 @@
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
+
+![Flask](https://img.shields.io/badge/Flask-Web_App-black)
+
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+
+![HTML](https://img.shields.io/badge/HTML-orange)
+
+![CSS](https://img.shields.io/badge/CSS-blue)
+----------------------------------------------------
+        AI CREDIT DECISION SYSTEM
+   Machine Learning Based Loan Approval
+----------------------------------------------------
 # 💳 AI Credit Decision System
 
 Machine Learning based Loan Approval Prediction System developed using Flask.
