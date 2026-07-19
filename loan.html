@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Credit Decision System</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<nav>
+
+<div class="logo">
+
+🏦 AI Credit Decision System
+
+</div>
+
+<ul>
+
+<li><a href="/">Home</a></li>
+
+<li><a href="/loan">Apply Loan</a></li>
+
+<li><a href="/admin">Dashboard</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+
+<!-- ================= HERO ================= -->
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>AI Powered Credit Decision System</h1>
+
+<p>
+
+Fast • Secure • Intelligent Loan Approval using Machine Learning
+
+</p>
+
+<a href="#form">
+
+<button class="hero-btn">
+
+Apply Now
+
+</button>
+
+</a>
+
+</div>
+
+<div class="hero-image">
+
+<img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=700" alt="Bank">
+
+</div>
+
+</section>
+
+<!-- ================= FORM ================= -->
+
+<div class="container" id="form">
+
+<h2>
+
+Loan Application Form
+
+</h2>
+
+<form action="/predict" method="POST">
+
+<input type="text" name="name" placeholder="👤 Full Name" required>
+
+<input type="number" name="age" placeholder="🎂 Age" required>
+
+<select name="gender" required>
+
+<option value="">Select Gender</option>
+
+<option>Male</option>
+
+<option>Female</option>
+
+</select>
+
+<select name="married" required>
+
+<option value="">Marital Status</option>
+
+<option>Married</option>
+
+<option>Single</option>
+
+</select>
+
+<select name="employment" required>
+
+<option value="">Employment Status</option>
+
+<option>Salaried</option>
+
+<option>Self Employed</option>
+
+</select>
+
+<input type="number" name="credit_score" placeholder="💳 Credit Score">
+
+<input type="number" name="income" placeholder="💰 Monthly Income" required>
+
+<input type="number" name="loan_amount" placeholder="🏠 Loan Amount" required>
+
+<button type="submit">
+
+🔍 Predict Loan
+
+</button>
+
+</form>
+
+</div>
+
+<!-- ================= FEATURES ================= -->
+
+<section class="features">
+
+<div class="card">
+
+<h2>⚡ Fast</h2>
+
+<p>
+
+Loan prediction within seconds.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🔒 Secure</h2>
+
+<p>
+
+Your information is completely safe.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<h2>🤖 AI Based</h2>
+
+<p>
+
+Prediction using Machine Learning.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<h3>
+
+🏦 AI Credit Decision System
+
+</h3>
+
+<p>
+
+Developed by <b>Kalyani</b>
+
+</p>
+
+<p>
+
+© 2026 All Rights Reserved
+
+</p>
+
+</footer>
+
+</body>
+
+</html>

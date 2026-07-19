@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav>
+🏦 Admin Dashboard
+</nav>
+
+<div class="container">
+
+<h1>System Statistics</h1>
+
+<h2>Total Applications : {{ total }}</h2>
+
+<h2>Approved : {{ approved }}</h2>
+
+<h2>Rejected : {{ rejected }}</h2>
+
+<h2>Approval Rate : {{ rate }}%</h2>
+
+</div>
+
+</body>
+</html>
