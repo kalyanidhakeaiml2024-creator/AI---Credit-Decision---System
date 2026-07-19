@@ -6,8 +6,8 @@ Machine Learning based Loan Approval Prediction System developed using Flask.
 
 ## 👩‍💻 Created By
 
-**Kalyani Dhake**
-**Karina Nagesh**
+- **Kalyani Dhake** (Enrollment No.: 0818CL241090)
+- **Karina Nagesh** (Enrollment No.: 0818CL241093)
 
 ---
 ## Project Description
