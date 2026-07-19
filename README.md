@@ -96,7 +96,7 @@ http://127.0.0.1:5000
 
 ### Prediction Result
 
-![Result](result.png.png)
+![Result](result.png.png) 
 
 ### CAM Report
 
