@@ -107,6 +107,11 @@ http://127.0.0.1:5000
 ![CAM Report](cam_report.png)
 
 ---
+## 🎥 Project Demo Video
+
+https://drive.google.com/file/d/1l5bi9YNITMQtSdmrOlKykUaP4c0YysJV/view?usp=sharing
+
+---
 
 ## 📄 Future Enhancements
 
